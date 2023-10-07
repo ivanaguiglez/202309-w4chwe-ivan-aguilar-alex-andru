@@ -1,0 +1,19 @@
+@use "../variables/colors";
+@use "../variables/fonts";
+
+html {
+  font-family: fonts.$main-font, fonts.$secondary-font, system-ui, sans-serif;
+  background-color: colors.$background;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  padding: 80px 16px;
+}
+
+img {
+  max-width: 100%;
+}
