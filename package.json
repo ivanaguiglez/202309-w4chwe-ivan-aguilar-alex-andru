@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build-styles": "sass src/sass/styles.scss public/styles/styles.css",
+    "build-style:dev": "sass --watch sass/styles.scss styles/styles.css"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +17,7 @@
     "lint-staged": "^14.0.1"
   },
   "dependencies": {
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "sass": "^1.69.0"
   }
 }
