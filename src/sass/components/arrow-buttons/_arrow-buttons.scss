@@ -1,0 +1,18 @@
+@use "../../variables/colors";
+.arrow-buttons {
+  display: flex;
+  gap: 40px;
+
+  &__arrow-left {
+    background-color: colors.$primary-dark;
+  }
+
+  &__arrow-right {
+    background-color: colors.$secondary-dark;
+  }
+
+  &__icon {
+    padding: 20px 28px;
+    stroke-width: 2px;
+  }
+}
