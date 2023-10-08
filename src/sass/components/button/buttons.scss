@@ -1,0 +1,5 @@
+@use "../../variables/colors";
+button {
+  border-radius: 12px;
+  color: colors.$button-text;
+}
