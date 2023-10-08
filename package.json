@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
     "build-styles": "sass src/sass/styles.scss public/styles/styles.css",
-    "build-style:dev": "sass --watch sass/styles.scss styles/styles.css"
+    "build-styles:dev": "sass --watch src/sass/styles.scss public/styles/styles.css"
   },
   "keywords": [],
   "author": "",
